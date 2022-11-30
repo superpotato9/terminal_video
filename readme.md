@@ -5,8 +5,20 @@ updated version of the video to ascii text version made by science elf
  ## Check out [this video](https://www.youtube.com/watch?v=uGoR3ZYZqjc) for more information and to see sample output for video to text conversion.
 
 ![Screenshot](screenshot.png)
-
 A sample image converted to text and printed to the terminal.
+
+# changes:
+the main issue with the original version is it could not play nor sync to music this was fixed by 
+1. adding frame rate cap using time delta 
+2. adidng simple audio playback
+3. optimmization mostly through the removal of numpy arrays due to their large overhead this moves the computing time to before the video plays reducing frame compute time
+# limitations:
+currently the code is admitally slow this is because of terminal out lag and the lag from the code a c# version might be coming soon
+
+
+
+
+
 
 ---
 
