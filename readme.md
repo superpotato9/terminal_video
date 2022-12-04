@@ -16,6 +16,10 @@ the main issue with the original version is it could not play nor sync to music 
 currently the code is admitally slow this is because of terminal out lag and the lag from the code a c# version might be coming soon
 
 
+# speed improvment:
+the best way to improve speed is to use pyinstaller turn the program into an exe (note as of dec 2022 the current version does not work you will need to use older version)
+
+
 
 
 
